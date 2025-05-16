@@ -1,0 +1,25 @@
+body{
+    flex-direction: column;
+    background-color: #5c5757;
+}
+.contenedor{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr) ;
+    grid-template-rows: repeat(6, 1fr);
+}
+.letra_nav{
+    color: white;
+}
+.navegador{
+    
+    background-color: black;
+}
+.titulo{
+    
+    color: white;
+}
+#img_cont{
+    
+    width: 400px; /*ancho*/
+    height: 300px; /*alto*/
+}

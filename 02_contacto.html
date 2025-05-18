@@ -7,37 +7,47 @@
     <title>Contacto</title>
 </head>
 <body>
+    <header>
+        <h1 class="header_let">Noxus lav</h1>
+    </header>
     <nav class="navegador">
-        <a class="letra_nav" href="00_inicio.html" >Inicio</a>
-        <a class="letra_nav" href="01_servicio.html" >Servicio</a>
-        <a class="letra_nav" href="02_contacto.html" >Contacto</a>
+        <a href="00_inicio.html" >Inicio</a>
+        <a href="01_servicio.html" >Servicio</a>
+        <a href="02_contacto.html" >Contacto</a>
     </nav>
-    <div class="contenedor">
-        <div>
+    <div class="contenedor_02">
+        <div class="box">
             <h1  class="titulo"> Contactanos</h1>
         </div>
-        <div>
-            <h2 class="subtitulo"> Esta pagina contiene contactos</h2>
+        <div class="box">
+            <h2 class="subtitulo"> Envia un mensaje con tus datos y especificaciones sobre lo que quieres mejorar para poder darte un asesoramiento más personalizado.</h2>
         </div>
-        <div>
-            <img id="img_cont" src="/static/contacto.jpeg">
+        <div class="box">
+            <img id="img_cont" src="static/noxus_contact_2.webp">
         </div>
-        <div>
+        <div class="box">
             <form action="\submit">
                 <fieldset>
-                    <legend>Datos personales</legend>
-                    Nombre: <input type="text" size="10"><br>
-                    Apellido: <input type="text" size="10"><br>
-                    Email: <input type="text"><br>
-                    mensaje: <textarea name="mensaje" id="msj"></textarea>
-                    <input type="submit" value="Enviar">
+                    <legend><h2> Reclutamiento a fuerzas Noxianas</h2></legend>
+                    <h3>Nombre de usuario: <input type="text" size="20"><br>
+                    Juego: <select>
+                        <option value="Lol" >League of Legends</option>
+                        <option value="Valo">Valorant </option>
+                        <option value="Tft">Team Fight Tactics</option>
+                    </select><br>
+                    Email: <input type="text" placeholder="ejemplo123@gmail.com"><br>
+                    Escribe en lo que quieras mejorar o consulta: <br> 
+                    <textarea name="mensaje" id="msj"></textarea>
+                    </h3>
+                    <button class="boton" type="submit"> Enviar </button>
                 </fieldset>
             </form>
         </div>
     </div>
-
-    <footer>
-        <h2>hasta aqui llega el scroll...</h2>
+   <footer>
+        <p>
+            Noxus es un imperio poderoso con una reputación temible en el universo de League of Legends. Sus habitantes, inicialmente una cultura de saqueadores feroces, construyeron un imperio a través de campañas militares exitosas y una filosofía inclusiva que valoraba la fuerza y el mérito por encima del estatus social.
+        </p>
     </footer>
 </body>
 </html>
